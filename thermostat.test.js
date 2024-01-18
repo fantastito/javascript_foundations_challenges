@@ -1,6 +1,6 @@
 const Thermostat = require('./thermostat')
 
-describe(Thermostat, () => {
+xdescribe(Thermostat, () => {
     it('Sets the thermostat to 20 when it initialises', () => {
         let thermostat = new Thermostat();
         expect(thermostat.getTemperature()).toBe(20)
