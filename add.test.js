@@ -1,6 +1,6 @@
 const add = require ('./add')
-
-describe('add', () => {
+// Tests from previous exercises skipped. <-- eddie fyi.
+xdescribe('add', () => {
     it('adds 4 and 2', () => {
         expect(add(4,2)).toBe(6)
     })
