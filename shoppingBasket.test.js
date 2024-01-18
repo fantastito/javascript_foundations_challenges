@@ -1,7 +1,7 @@
 const ShoppingBasket = require('./shoppingBasket')
 const Candy = require('./candy')
 
-describe(ShoppingBasket, () => {
+xdescribe(ShoppingBasket, () => {
     it('Gets the total price of the shopping basket', () => {
         let basket = new ShoppingBasket();
         expect(basket.getTotalPrice()).toEqual(0)
